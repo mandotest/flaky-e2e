@@ -15,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test:ci:record": "npx wait-on http://localhost:3000 && npx cypress run --record --key a21c86a7-501f-4ffb-bd2f-93a8727cb654"
   },
   "eslintConfig": {
     "extends": [

@@ -1,5 +1,5 @@
 module.exports = {
-  projectId: 'hguo3e',
+  projectId: 'ywkod8',
 
   component: {
     // devServer: {
